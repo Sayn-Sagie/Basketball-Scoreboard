@@ -35,8 +35,8 @@ function threepointerGuest() {
 }
 
 function newGame() {
-    let score = ("Home: " + homeScore) + " - " + ("Guest: " + guestScore) + ", "
-    saveEl.textContent += score
+    let score = ("Home: " + homeScore) + " - " + ("Guest: " + guestScore)
+    saveEl.textContent = "Game Score: " + score
     homeScoreEl.textContent = 0
     guestScoreEl.textContent = 0
     homeScore = 0
